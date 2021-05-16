@@ -1,5 +1,5 @@
 "use strict";
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 function add(a, b) {
     return a + b;
 }
@@ -18,3 +18,4 @@ function printResult(result) {
     console.log(result);
 }
 addAndCallback(10, 20, printResult);
+//# sourceMappingURL=06-function-as-type.js.map

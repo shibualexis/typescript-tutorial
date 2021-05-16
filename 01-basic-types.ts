@@ -18,6 +18,7 @@ for(let color of person.favColor){
     console.log(color.toUpperCase())
 }
 
+
 // Explicit definition of an object
 const person1:{
     name:string;

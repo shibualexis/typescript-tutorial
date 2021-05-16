@@ -1,0 +1,13 @@
+//https://www.typescriptlang.org/docs/handbook/tsconfig-json.html
+
+
+
+tsc app.ts
+
+tsc app.ts -w
+
+tsc --init
+
+tsc // Compiles all ts files in the project.
+
+tsc -w // Compiles all ts files in the project with watch mode.

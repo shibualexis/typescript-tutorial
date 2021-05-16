@@ -1,3 +1,4 @@
+"use strict";
 // Custom types or Type Alias
 var num = 10;
 var str = "Hello";
@@ -9,3 +10,4 @@ var p1 = {
     age: 10,
     id: 1001
 };
+//# sourceMappingURL=09-type-alias-custom-types.js.map

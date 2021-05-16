@@ -1,5 +1,5 @@
 "use strict";
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 // ENUM
 var Role;
 (function (Role) {
@@ -13,3 +13,4 @@ var person2 = {
     age: 38,
     role: Role.ADMIN
 };
+//# sourceMappingURL=03-enum.js.map

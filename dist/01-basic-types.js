@@ -1,6 +1,6 @@
 "use strict";
 //https://www.typescriptlang.org/docs/handbook/basic-types.html
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 var str = "Hello world";
 var num = 10;
 var boo = true;
@@ -29,3 +29,4 @@ var person1 = {
 // person1.role.push("invalid type"); //won't show error
 // person1.role[1] = "invalid type"; // show error as it is invalid value assignment
 // person1.role[1] = 1; // Valid value assignment
+//# sourceMappingURL=01-basic-types.js.map
