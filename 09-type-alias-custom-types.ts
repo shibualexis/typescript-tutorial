@@ -1,5 +1,5 @@
 // Custom types or Type Alias
-
+export{}
 type primitives = string | number | boolean | null | undefined;
 
 let num: primitives = 10;

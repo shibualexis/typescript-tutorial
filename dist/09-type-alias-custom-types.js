@@ -1,5 +1,5 @@
 "use strict";
-// Custom types or Type Alias
+Object.defineProperty(exports, "__esModule", { value: true });
 var num = 10;
 var str = "Hello";
 var boo = true;
