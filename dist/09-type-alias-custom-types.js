@@ -1,11 +1,11 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var num = 10;
-var str = "Hello";
-var boo = true;
-var a = null;
-var b = undefined;
-var p1 = {
+let num = 10;
+let str = "Hello";
+let boo = true;
+let a = null;
+let b = undefined;
+let p1 = {
     name: "Shibu",
     age: 10,
     id: 1001

@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var e1 = {
+let e1 = {
     name: "Shibu",
     dateOfJoining: new Date(),
     privilleges: "add"

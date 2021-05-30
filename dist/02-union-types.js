@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 // Union types
-var a = 10;
-var b = "Shibu";
-var c = true;
+let a = 10;
+let b = "Shibu";
+let c = true;
 //# sourceMappingURL=02-union-types.js.map

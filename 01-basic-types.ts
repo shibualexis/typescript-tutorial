@@ -4,7 +4,7 @@ export{}
 const str:string = "Hello world";
 const num:number = 10;
 const boo:boolean = true;
-const x:any = "19";
+
 
 
 // Typescript type inference
@@ -60,9 +60,8 @@ col = "red";
 
 // String
 let fullname:string = 'Shibu Alexis';
-let age: 37;
-let sentence: string = `Hello, my name is ${fullname}.
-and my age is ${age}`;
+let age:number = 37;
+let sentence: string = `Hello, my name is ${fullname}. and my age is ${age}`;
 
 // Array
 let list: number[] = [1, 2, 3];

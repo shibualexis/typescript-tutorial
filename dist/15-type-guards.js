@@ -13,27 +13,21 @@ function printEmpDetails(emp) {
     }
 }
 // ================================================================================
-var Car = /** @class */ (function () {
-    function Car() {
-    }
-    Car.prototype.drive = function () {
+class Car {
+    drive() {
         console.log("Driving a Car");
-    };
-    return Car;
-}());
-var Truck = /** @class */ (function () {
-    function Truck() {
     }
-    Truck.prototype.drive = function () {
+}
+class Truck {
+    drive() {
         console.log("Driving a Truck");
-    };
-    Truck.prototype.loadCargo = function () {
+    }
+    loadCargo() {
         console.log("Loading cargo");
-    };
-    return Truck;
-}());
-var v1 = new Car();
-var v2 = new Truck();
+    }
+}
+const v1 = new Car();
+const v2 = new Truck();
 function useVehicle(v) {
     v.drive(); // Common method in both class Car and Truck. So no issues
     // if("loadCargo" in v){
